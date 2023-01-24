@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Krish Vijayvergia's Portfolio</title>
+        <title>krishs portfolio</title>
         <meta name="description" content="Yuppity yup yup" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -59,7 +59,7 @@ export default function Home() {
       <main className='h-screen bg-white px-10 dark:bg-black flex justify-center items-center'>
         <section className='min-h-screen'>
          <nav className='py-10 mb-12 flex justify-between'>
-         <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>krish "krishanator" vijayvergia</h1>
+         <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>krish krishanator vijayvergia</h1>
          <ul className='flex items-center'>
         
           <li>
