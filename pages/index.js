@@ -48,15 +48,15 @@ export default function Home() {
 
   
   return (
-    <>
+    <div>
       <Head>
         <title>krishs portfolio</title>
         <meta name="description" content="Yuppity yup yup" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit-cover" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='h-screen bg-white px-10 dark:bg-black flex justify-center items-center'>
+      <main className='h-screen bg-transparent bg-white px-10 dark:bg-black flex justify-center items-center'>
         <section className='min-h-screen'>
          <nav className='py-10 mb-12 flex justify-between'>
          <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>krish krishanator vijayvergia</h1>
@@ -85,7 +85,7 @@ export default function Home() {
           <li>
             <a
             className='bg-gradient-to-tr bg-lime-400 text-white px-4 py-2 rounded-md ml-8 border-none font-ColateraSoft'
-            href='#'
+            href='contact'
             >
               Contact Me
             </a>
@@ -113,7 +113,7 @@ export default function Home() {
          </div>
          <div className='text-black dark:text-white font-ColateraSoft text-center mt-2'>
           <p>Hello! I am Krish! I like to run, play videogames, and I also love to create discord bots! I am learning so much about code everyday!</p>
-          <p>If you want me to create a discord bot for you, please hit the contact me button in the top right!</p>
+          <p>If you want me to create a discord bot for you, please hit the contact me button in the top right! it does not work as of now.</p>
           <p>As you can also see, my other socials like discord, strava, youtube, and twitter are pinned! Click those buttons!</p>
          </div>
          <div className="text-5xl flex justify-center mt-4 mb-0 gap-8 py-2 text-gray-600 dark:text-gray-400">
@@ -150,6 +150,6 @@ export default function Home() {
       `}</style>
         </section>
       </main>
-    </>
+    </div>
   )
 }
