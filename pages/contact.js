@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function Contact() {
     return(
         <div>
@@ -16,12 +17,12 @@ export default function Contact() {
          <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>Contact Me! Coming soon...</h1>
          <ul>
             <li>
-            <a
-            className='bg-gradient-to-tr bg-lime-400 text-white px-4 py-2 rounded-md ml-8 border-none font-ColateraSoft'
+            
+            <Link className='bg-gradient-to-tr bg-lime-400 text-white px-4 py-2 rounded-md ml-8 border-none font-ColateraSoft'
             href='/'
-            >
-              Go back to home
-            </a>
+            
+              >Go back to home
+            </Link>
             </li>
          </ul>
          </nav>
