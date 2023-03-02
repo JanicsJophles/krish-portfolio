@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css';
 import Link from 'next/link'
+import { Collapse } from 'flowbite';
 import {
    BsFillMoonStarsFill,
    BsStrava,
@@ -47,53 +48,66 @@ export default function Home() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  
+
+
   return (
     <div>
       <Head>
         <title>krishs portfolio</title>
         <meta name="description" content="Yuppity yup yup" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit-cover" />
-        <link rel="icon" href="/favicon.ico" />
+        
       </Head>
 
       <main className='h-screen bg-transparent bg-white px-10 dark:bg-black flex justify-center items-center'>
         <section className='min-h-screen'>
-         <nav className='py-10 mb-12 flex justify-between'>
-         <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>krish krishanator vijayvergia</h1>
-         <ul className='flex items-center'>
+         
+         <nav className=" px-2 sm:px-4 py-2.5 rounded ">
+  <div className="container flex flex-wrap items-center justify-between mx-auto">
+    <a href="#" className="flex items-center">
         
-          <li>
-            <BsFillMoonStarsFill className="text-black dark:text-white cursor-pointer text-2xl ml-4" onClick={handleThemeSwitch}/>
-          </li>
-          
-          <li>
-            <a href='https://twitter.com/krishanatoryt' rel="noopener noreferrer" target="_blank"><AiFillTwitterCircle className=" text-black dark:text-white cursor-pointer text-2xl ml-4"/></a>
-          </li>
+        <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">krish krishanator vijayvergia</span>
+    </a>
 
-          <li>
-          <a href='https://www.youtube.com/channel/UCZ8G9EZZ11QJ6mTgIimyy-g' rel="noopener noreferrer" target="_blank"><AiFillYoutube className=" text-black dark:text-white cursor-pointer text-2xl ml-4"/></a>
-          </li>
 
-          <li>
-          <a href='https://www.strava.com/athletes/86482587' rel="noopener noreferrer" target="_blank"><BsStrava className=" text-black dark:text-white cursor-pointer text-2xl ml-4"/></a>
-          </li>
+    <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <span className="sr-only">Open main menu</span>
+      <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
 
-          <li>
-          <a href='https://discord.gg/FXTZxSbDWE' rel="noopener noreferrer" target="_blank"><BsDiscord className=" text-black dark:text-white cursor-pointer text-2xl ml-4" /></a>
+    <div id="targetNav" class="hidden">
+  <ul class="w-48 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+      <li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600">Profile</li>
+      <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">Settings</li>
+      <li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">Messages</li>
+      <li class="w-full px-4 py-2 rounded-b-lg">Download</li>
+  </ul>
+</div>
+
+    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+        <li>
+            <BsFillMoonStarsFill className="block py-2 pl-3 pr-4 text-xl text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" onClick={handleThemeSwitch}/>
           </li>
-          
           <li>
-            <a
-            className='bg-gradient-to-tr bg-lime-400 text-white px-4 py-2 rounded-md ml-8 border-none font-ColateraSoft'
-            href='contact'
-            >
-              Contact Me
-            </a>
+          <a href="https://twitter.com/krishanatoryt" rel="noopener noreferrer" target="_blank" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">twitter</a>
           </li>
-         </ul>
-         </nav> 
-         <div className='font-ColateraSoft text-4xl text-center text-gray-500'>
+        <li>
+          <a href="https://www.youtube.com/channel/UCZ8G9EZZ11QJ6mTgIimyy-g" rel="noopener noreferrer" target="_blank" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">youtube</a>
+        </li>
+        <li>
+          <a href="https://www.strava.com/athletes/86482587" rel="noopener noreferrer" target="_blank" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">strava</a>
+        </li>
+        
+        <li>
+          <a href="contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+         <div className='font-ColateraSoft text-2xl text-center text-gray-500'>
          <div>
          <Typewriter
          options={{
@@ -109,13 +123,13 @@ export default function Home() {
          />
          </div>
          </div>
-         <div className='text-black dark:text-white font-ColateraSoft text-2xl text-center mt-4'>
-          <h2>Student, Developer, and Runner</h2>
+         <div className='text-black dark:text-white font-ColateraSoft text-xl text-center mt-2'>
+          <h2>Genius billionaire playboy philanthropist?</h2>
          </div>
          <div className='text-black dark:text-white font-ColateraSoft text-center mt-2'>
-          <p>Hello! I am Krish! I like to run, play videogames, and I also love to create discord bots! I am learning so much about code everyday!</p>
-          <p>If you want me to create a discord bot for you, please hit the contact me button in the top right! it does not work as of now.</p>
-          <p>As you can also see, my other socials like discord, strava, youtube, and twitter are pinned! Click those buttons!</p>
+          <p>Nah. But yo im krish i code sometimes. My favorite language at the moment is javascript. Yes i like JS, and yes i know its weird that i do.</p>
+          <p>I create websites, build apps, and code discord bots. Because everyone wants a discord bot for some reason.</p>
+          <p>As you can also see, my other socials like discord, strava, youtube, and twitter are pinned! You can check em out.</p>
          </div>
          <div className="text-5xl flex justify-center mt-4 mb-0 gap-8 py-2 text-gray-600 dark:text-gray-400">
               <SiJavascript />
@@ -135,22 +149,10 @@ export default function Home() {
          </footer>
 
 
-      <style jsx>{`
-        
-        footer {
-          width: 100%;
-          height: 50px;
-          border-top: 1px solid #eaeaea;
-          border-color: gray
-          
-         
-        }
-        
-        
-        
-      `}</style>
+    
         </section>
       </main>
     </div>
   )
+  
 }
