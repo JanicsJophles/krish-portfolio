@@ -13,22 +13,26 @@ export default function Contact() {
        
       <main className='h-screen bg-transparent bg-white px-10 dark:bg-black flex justify-center items-center'>
         <section className='min-h-screen'>
-         <nav className='py-10 mb-12 flex justify-between'>
-         <h1 className='text-black dark:text-white text-xl font-ColateraSoft'>Contact Me! Coming soon...</h1>
-         <ul>
-            <li>
-            
-            <Link className='bg-gradient-to-tr bg-lime-400 text-white px-4 py-2 rounded-md ml-8 border-none font-ColateraSoft'
-            href='/'
-            
-              >Go back to home
-            </Link>
-            </li>
-         </ul>
-         </nav>
+        <nav className=" px-2 sm:px-4 py-2.5 rounded ">
+            <div className="container flex flex-wrap items-center justify-between mx-auto">
+              <a href="#" className="flex items-center">
+                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+                  Page under construction..
+                </span>
+              </a>
+              </div>
+              <ul>
+                  <li>
+                    <div className='self-center'>
+                    <button type="button" className="self-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><Link href="/">Click this button to go back to home</Link></button>
+                    
+                    </div>
+                  </li>
+                  </ul>
+              </nav>
         </section>
       </main>
         
-                </div>
+      </div>
     )
 }
