@@ -99,22 +99,22 @@ export default function Home() {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/krishanatoryt"
+                      href="https://www.instagram.com/krishvijayvergia/"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
-                      twitter
+                      instagram
                     </a>
                   </li>
                   <li>
                     <a
-                      href="https://www.youtube.com/channel/UCZ8G9EZZ11QJ6mTgIimyy-g"
+                      href="https://www.linkedin.com/in/krish-vijayvergia-33b54928b/"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
-                      youtube
+                      linkedin
                     </a>
                   </li>
                   <li>
@@ -130,7 +130,7 @@ export default function Home() {
 
                   <li>
                     <a
-                      href="contact"
+                      href="mailto:krishwinrocks@gmail.com"
                       className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
                       contact
@@ -163,17 +163,15 @@ export default function Home() {
           </div>
           <div className="text-black dark:text-white font-ColateraSoft text-center mt-2">
             <p>
-              Nah. But yo im krish i code sometimes. My favorite language at the
-              moment is javascript. Yes i like JS, and yes i know its weird that
-              i do.
+              Nah. But yo im Krish i code sometimes. I mainly code in JavaScript, but I do know
+              Python, Dart, and HTML.
             </p>
             <p>
-              I create websites, build apps, and code discord bots. Because
-              everyone wants a discord bot for some reason.
+              I create websites, build apps, and code discord bots sometimes. 
             </p>
             <p>
-              As you can also see, my other socials like discord, strava,
-              youtube, and twitter are linked! You can check em out.
+              I love running and I hope to be a future state champ one day!
+              Some of my socials are linked in the top right, go check em out!
             </p>
           </div>
           <div className="text-5xl flex justify-center mt-4 mb-0 gap-8 py-2 text-gray-600 dark:text-gray-400">
@@ -183,7 +181,7 @@ export default function Home() {
             <SiTailwindcss />
             <SiTypescript />
           </div>
-          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-19 md:h-70 md:w-70">
+          <div className="mx-auto bg-gradient-to-b rounded-full w-60 h-60 relative overflow-hidden mt-19 md:h-70 md:w-70">
             <Image src={krish} layout="fill" objectFit="cover" />
           </div>
 

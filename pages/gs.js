@@ -29,6 +29,8 @@ export default function GetStarted() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  
+
   return (
     <>
       <Head>
@@ -57,21 +59,24 @@ export default function GetStarted() {
                 https://www.tiktok.com/setting/download-your-data
               </a>{" "}
               and download your data in the JSON format. If you download it in
-              the TXT format, this will not work. As a privacy note it is important
-              to say that your login credentials, your password, are not exposed
-              inside of this file. Also this file is not stored or downloaded anywhere
-              on our databases/servers.
-              
+              the TXT format, this will not work. Also don't upload the zip file.
+              Extract the zip file and select the json file that's inside.
+              As a privacy note it is
+              important to say that your login credentials, your password, are
+              not exposed inside of this file. Also this file is not stored or
+              downloaded anywhere on our databases/servers.
             </p>
-            
+            <div>
+              <input
+                class="items-center text-sm mb-6 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+                accept=".json"
+                id="file_input"
+                type="file"
+              ></input>
+              
+            </div>
 
-<input class="items-center text-sm mb-6 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400" id="file_input" type="file"></input>
-
-            
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                
-
-
               <a
                 href=""
                 class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
@@ -93,13 +98,12 @@ export default function GetStarted() {
               </a>
             </div>
           </div>
-          
         </section>
         <section>
           <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-center md:p-6 dark:bg-black dark:border-gray-600">
             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
               2023. Created by{" "}
-              <a href="https://flowbite.com/" class="hover:underline">
+              <a href="https://krishanator.com/" class="hover:underline">
                 Krish Vijayvergia
               </a>
             </span>
