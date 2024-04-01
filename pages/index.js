@@ -57,7 +57,7 @@ export default function Home() {
             <div className="container flex flex-wrap items-center justify-between mx-auto">
               <a href="#" className="flex items-center">
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                  krish krishanator vijayvergia
+                  krish vijayvergia
                 </span>
               </a>
 
@@ -99,12 +99,12 @@ export default function Home() {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/krishvijayvergia/"
+                      href="https://github.com/JanicsJophles"
                       rel="noopener noreferrer"
                       target="_blank"
                       className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     >
-                      instagram
+                      github
                     </a>
                   </li>
                   <li>
@@ -164,13 +164,13 @@ export default function Home() {
           <div className="text-black dark:text-white font-ColateraSoft text-center mt-2">
             <p>
               Nah. But yo im Krish i code sometimes. I mainly code in JavaScript, but I do know
-              Python, Dart, and HTML.
+              some Dart and HTML.
             </p>
             <p>
               I create websites, build apps, and code discord bots sometimes. 
             </p>
             <p>
-              I love running and I hope to be a future state champ one day!
+              I love running and I hope to win nationals one day!
               Some of my socials are linked in the top right, go check em out!
             </p>
           </div>
