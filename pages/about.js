@@ -96,7 +96,7 @@ export default function About() {
         >
           <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm a student-athlete passionate about technology and leadership, 
+            I&apos;m a student-athlete passionate about technology and leadership, 
             constantly pushing boundaries in both sports and software development.
           </p>
         </motion.div>
@@ -135,9 +135,9 @@ export default function About() {
         >
           <h2 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">My Journey</h2>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            As a senior at Great Hearts Northern Oaks, I've balanced my passion for technology 
+            As a senior at Great Hearts Northern Oaks, I&apos;ve balanced my passion for technology 
             with competitive athletics. My experience as Cross Country Captain taught me valuable 
-            leadership skills that I apply to my software development projects. Whether I'm leading 
+            leadership skills that I apply to my software development projects. Whether I&apos;m leading 
             my team to a state championship or developing innovative applications, I bring the same 
             dedication and drive to everything I do.
           </p>

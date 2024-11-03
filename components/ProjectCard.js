@@ -8,8 +8,8 @@ export default function ProjectCard({ title, description, tech, githubLink }) {
       className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-colors duration-200"
     >
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{title}</h3>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">{description}</p>
+        <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{title.replace(/'/g, "&apos;")}</h3>
+        <p className="text-gray-600 dark:text-gray-300 mb-4">{description.replace(/'/g, "&apos;")}</p>
         <div className="flex flex-wrap gap-2 mb-4">
           {tech.map((item, index) => (
             <span
