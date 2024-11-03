@@ -22,7 +22,7 @@ export default function Layout({ title, children }) {
     >
       <div className="bg-white dark:bg-gray-900 transition-colors duration-200">
         <Head>
-          <title>{title ? `${title} | Krish&apos;s Portfolio` : `Krish&apos;s Portfolio`}</title>
+          <title>{title ? `${title} | Krishs Portfolio` : `Krishs Portfolio`}</title>
           <meta name="description" content="Personal portfolio of Krish Vijayvergia" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -75,9 +75,9 @@ export default function Layout({ title, children }) {
             <div className="flex justify-between items-center">
               <p className="text-gray-500 dark:text-gray-400">© 2024 Krish Vijayvergia</p>
               <div className="flex space-x-6">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">GitHub</a>
-                <a href="https://linkedin.com/in/krish-vijayvergia" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">LinkedIn</a>
-                <a href="https://www.strava.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">Strava</a>
+                <a href="https://github.com/JanicsJophles" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">GitHub</a>
+                <a href="https://www.linkedin.com/in/krish-vijayvergia-33b54928b/" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">LinkedIn</a>
+                <a href="https://www.strava.com/athletes/86482587" target="_blank" rel="noopener noreferrer" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300">Strava</a>
               </div>
             </div>
           </div>

@@ -97,7 +97,7 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
           >
             <div className="p-6">
-              <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">3+</h3>
+              <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">5+</h3>
               <p className="text-gray-600 dark:text-gray-300">Years of Programming</p>
             </div>
             <div className="p-6">
@@ -105,7 +105,7 @@ export default function Home() {
               <p className="text-gray-600 dark:text-gray-300">Projects Completed</p>
             </div>
             <div className="p-6">
-              <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">#1</h3>
+              <h3 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-2">1</h3>
               <p className="text-gray-600 dark:text-gray-300">State Championship</p>
             </div>
           </motion.div>

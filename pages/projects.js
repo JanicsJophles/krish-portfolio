@@ -8,22 +8,21 @@ export default function Projects() {
       title: "Zewo Discord Bot",
       description: "A multipurpose chatbot with various features including game stats integration.",
       tech: ['JavaScript', 'Discord.js', 'Node.js'],
-      githubLink: "https://github.com/yourusername/zewo",
+      githubLink: "https://github.com/JanicsJophles/Zewo",
       image: "/images/zewo.png" // Add project images
     },
     {
       title: "Musica Discord Bot",
       description: "Music recommendation and stats bot integrated with Last.fm API.",
       tech: ['Discord.js', 'Express.js', 'Axios', 'Last.fm API'],
-      githubLink: "https://github.com/yourusername/musica",
+      githubLink: "https://github.com/JanicsJophles/musica",
       image: "/images/musica.png"
     },
     {
-      title: "NeuroScanAI",
-      description: "AI-powered brain tumor detection system.",
-      tech: ['Python', 'TensorFlow', 'OpenCV'],
-      githubLink: "https://github.com/yourusername/neuroscanai",
-      image: "/images/neuroscan.png"
+      title: "My Portfolio",
+      description: "This is my portfolio website built with Next.js",
+      tech: ['Next.js', 'CSS', 'Axios'],
+      githubLink: "https://github.com/JanicsJophles/krish-portfolio",
     }
   ];
 
