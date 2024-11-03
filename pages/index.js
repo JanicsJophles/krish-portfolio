@@ -53,7 +53,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <Hero>
               <Title className="text-5xl font-bold mb-4 text-gray-900 dark:text-white">
-                Hi, I'm Krish Vijayvergia
+                Hi, I&apos;m Krish Vijayvergia
               </Title>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
                 A passionate developer and athlete from San Antonio, Texas, 

@@ -12,7 +12,7 @@ const LayoutWrapper = styled.div`
   transition: all 0.3s ease;
 `;
 
-export default function Layout({ children }) {
+export default function Layout({ title, children }) {
   const { theme, isDark, toggleTheme } = useTheme();
 
   return (
@@ -22,10 +22,9 @@ export default function Layout({ children }) {
     >
       <div className="bg-white dark:bg-gray-900 transition-colors duration-200">
         <Head>
-          <title>Krish Vijayvergia - Portfolio</title>
+          <title>{title ? `${title} | Krish&apos;s Portfolio` : `Krish&apos;s Portfolio`}</title>
           <meta name="description" content="Personal portfolio of Krish Vijayvergia" />
           <link rel="icon" href="/favicon.ico" />
-          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
         </Head>
 
         <nav 
